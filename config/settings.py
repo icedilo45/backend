@@ -187,9 +187,6 @@ PAYSTACK_WEBHOOK_SECRET = os.getenv("PAYSTACK_WEBHOOK_SECRET", "")
 PAYSTACK_CURRENCY = "GHS"
 
 # Delivery
-# Bolt currently has no public API in Ghana. We support:
-# - "external_manual"  : staff / pharmacy books Bolt Send / Yango
-# - "partner_api"      : future courier partner that exposes an API
 DEFAULT_DELIVERY_PROVIDER = "external_manual"
 
 # Production security
